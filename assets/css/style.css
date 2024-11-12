@@ -137,3 +137,9 @@ footer {
 .menu-footer ul li a:hover {
     text-decoration: underline;
 }
+
+#settings {
+    background-color: transparent;
+    border: none;
+    appearance: none; /*Remove o 'v' do select*/
+}
