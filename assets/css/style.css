@@ -1,8 +1,8 @@
 :root {
     --text-color: #FFF;
-    --border-color: rgba(255, 255, 255, .4);
+    --border-color: #9AA0A6;
     --bg: #202124;
-    --bg-button: rgba(255, 255, 255, .1);
+    --bg-button: #303134;
     --bg-footer: #171717;
 }
 
@@ -54,7 +54,7 @@ h1 {
     border: 1px solid var(--border-color);
     display: flex;
     justify-self: center;
-    padding: .7rem 1rem;
+    padding: .8rem 1rem;
     border-radius: 2rem;
     gap: .8rem;
     margin-bottom: 1.4rem;
@@ -70,6 +70,10 @@ h1 {
 .box:hover {
     background-color: var(--bg-button);
     border-color: transparent;
+}
+
+.box img {
+    zoom: .8;
 }
 
 .buttons {
@@ -96,7 +100,7 @@ p {
 }
 
 .link-google-br {
-    color: lightblue;
+    color: #99C3FF;
 }
 
 .link-google-br:hover {
@@ -128,4 +132,8 @@ footer {
 .menu-footer ul {
     display: flex;
     gap: 1rem;
+}
+
+.menu-footer ul li a:hover {
+    text-decoration: underline;
 }
