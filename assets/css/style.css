@@ -40,6 +40,7 @@ ul {
 /* MAIN */
 main {
     text-align: center;
+    padding-top: 12rem;
 }
 
 h1 {
@@ -51,7 +52,7 @@ h1 {
     border: 1px solid var(--border-color);
     display: flex;
     justify-self: center;
-    padding: .6rem 1rem;
+    padding: .7rem 1rem;
     border-radius: 2rem;
     gap: .8rem;
     margin-bottom: 1.4rem;
@@ -101,6 +102,12 @@ p {
 }
 
 /* FOOTER */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 .localization {
     background-color: var(--bg-footer);
     padding: 1rem 2rem;
