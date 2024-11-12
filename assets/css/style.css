@@ -1,6 +1,7 @@
 :root {
-    --text-color: #FFF;
+    --text-color: #E8E8E8;
     --border-color: #9AA0A6;
+    --border-color-footer: #313335;
     --bg: #202124;
     --bg-button: #303134;
     --bg-footer: #171717;
@@ -117,7 +118,7 @@ footer {
 .localization {
     background-color: var(--bg-footer);
     padding: .9rem 2rem;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color-footer);
 }
 
 .menu-footer {
