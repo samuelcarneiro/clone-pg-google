@@ -10,7 +10,7 @@
 <br>
 
 <p align="center">
-  <img alt="screenshot da pagina clone" src=".github/preview.png" width="100%">
+  <img alt="screenshot da pagina clone" src=".github/preview-clone-google.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
