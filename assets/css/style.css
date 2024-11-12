@@ -43,7 +43,7 @@ ul {
 /* MAIN */
 main {
     text-align: center;
-    padding-top: 12rem;
+    padding-top: 10rem;
 }
 
 .logo {
@@ -117,7 +117,7 @@ footer {
 
 .localization {
     background-color: var(--bg-footer);
-    padding: .9rem 2rem;
+    padding: .6rem 2rem;
     border-bottom: 1px solid var(--border-color-footer);
 }
 
@@ -126,7 +126,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: .9rem 2rem;
+    padding: .6rem 2rem;
 }
 
 .menu-footer ul {
@@ -136,10 +136,4 @@ footer {
 
 .menu-footer ul li a:hover {
     text-decoration: underline;
-}
-
-#settings {
-    background-color: transparent;
-    border: none;
-    appearance: none; /*Remove o 'v' do select*/
 }
