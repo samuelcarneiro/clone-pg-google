@@ -133,8 +133,20 @@ footer {
 .menu-footer ul {
     display: flex;
     gap: 1rem;
+    position: relative;
 }
 
 .menu-footer ul li a:hover {
     text-decoration: underline;
+}
+
+.menu-footer li ul {
+    position: absolute;
+    top: -240px;
+    right: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid var(--border-color);
+    border-radius: .4rem;
+    background-color: var(--bg-button);
 }
